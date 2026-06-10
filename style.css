@@ -1,0 +1,1323 @@
+body {
+  background-color: #e5e5e5;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== HEADER ========== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #000;
+  padding: 10px 20px;
+  height: 60px;
+  border-bottom: orange;
+}
+
+.header {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Logo */
+.sarlavha {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.eco {
+  width: 40px;
+  height: auto;
+}
+
+.ecob {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ecoba {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Navbar */
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  flex-wrap: nowrap;
+  margin-left: 60px;
+}
+
+ul {
+  position: relative;
+  left: 130px;
+}
+
+.sahifalar {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  white-space: nowrap;
+  padding: 6px 4px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.sahifalar:hover {
+  border-color: orange;
+  background-color: orange;
+  color: #fff;
+  padding: 6px 10px;
+}
+
+/* .sahifalar ul li a.active {
+  color: #534ab7;
+  border-bottom: 2px solid #534ab7;
+  font-weight: 500;
+} */
+
+.royxat {
+  width: 28px;
+  padding: 2px;
+  background-color: darkblue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: 450px;
+  margin-top: 3px;
+}
+
+/* Search */
+.search {
+  width: 28px;
+  padding: 2px;
+  background-color: darkorange;
+  border: 1px solid orange;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  padding: 60px 120px 40px;
+  /* background: linear-gradient(to right, blue, orange); */
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
+  height: 500px;
+}
+
+.bugun {
+  font-size: 24px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.global-rasm {
+  display: flex;
+}
+
+.global {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  width: 400px;
+  position: relative;
+  left: -110px;
+}
+
+.global:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+}
+
+.qurbon-hayit {
+  width: 400px;
+  height: 270px;
+  position: relative;
+  top: -295px;
+  left: 310px;
+}
+
+.qurbon-hayit:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px red;
+  transition: all 0.3s;
+}
+
+.balans {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.balans h2 {
+  font-size: 28px;
+}
+
+.balans p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.right-graphic {
+  position: relative;
+  top: -590px;
+  left: 720px;
+  z-index: 10;
+  max-width: 500px;
+  width: 500px;
+  height: 269px;
+}
+
+.right-graphic:hover {
+  margin-top: -10px;
+  box-shadow: 0 0 10px darkorange;
+  transition: all 0.3s;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn1 {
+  background-color: blue;
+  color: #fff;
+}
+
+.btn2 {
+  background-color: orange;
+  color: #fff;
+}
+
+.balans img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* ========== STATS SECTION ========== */
+.stats-section {
+  display: flex;
+  gap: 16px;
+  padding: 160px 120px;
+  flex-wrap: wrap;
+  background-color: #a8a8a8;
+}
+
+.box {
+  flex: 1;
+  min-width: 160px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  border-left: 4px solid orange;
+}
+
+.box:hover {
+  transform: translateY(-15px);
+  transition: all 0.3s;
+}
+
+.box1,
+.box2 {
+  border-left: 4px solid darkblue;
+}
+
+.box1:hover {
+  box-shadow: 0 0 10px darkblue;
+}
+
+.box2:hover {
+  box-shadow: 0 0 10px darkblue;
+}
+
+.box3:hover {
+  box-shadow: 0 0 10px orange;
+}
+
+.box4:hover {
+  box-shadow: 0 0 10px orange;
+}
+
+.box h3 {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.box h2 {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.box h2 img {
+  width: 16px;
+  height: 16px;
+}
+
+.box h2 span {
+  font-size: 12px;
+  color: #888;
+}
+
+/* ========== CONTENT SECTION ========== */
+.content-section {
+  display: flex;
+  gap: 24px;
+  padding: 40px 120px;
+}
+
+.asosiy {
+  flex: 2;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.asosiy:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+}
+
+.asosiy h2,
+.yangiliklar h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.asosiy img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.yangiliklar {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.mary:hover,
+.k:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.mary {
+  width: 28px;
+}
+
+.k {
+  width: 28px;
+  position: relative;
+  top: -30px;
+  left: 51px;
+}
+
+.yangiliklar-insta {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.yangiliklar-telegr {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
+
+.kana {
+  position: relative;
+  top: -40px;
+  left: 60px;
+}
+
+.boglanish-contact1 {
+  width: 28px;
+  position: relative;
+  top: 68px;
+  left: -143px;
+}
+
+.boglanish-contact2 {
+  width: 28px;
+  position: relative;
+  top: 70px;
+  left: 7px;
+}
+
+h4 {
+  position: relative;
+  top: 41px;
+  left: 40px;
+}
+
+.yangiliklar:hover {
+  margin-top: -10px;
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
+}
+
+/* ========== ASOSCHI SECTION ========= */
+
+.asoschi-section {
+  background-color: #a8a8a8;
+  padding: 40px 0px;
+  height: 450px;
+}
+
+.asoschi {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 220px;
+  margin-top: 40px;
+  background: linear-gradient(to top, darkblue, orange);
+  padding: 13px;
+}
+
+.soliq-ekspert {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  top: 10px;
+  width: 120px;
+}
+
+.text {
+  margin-left: 500px;
+  margin-top: -200px;
+  margin-bottom: 10px;
+}
+
+.aval {
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkorange;
+  font-weight: bold;
+  color: white;
+}
+
+.ism {
+  margin-top: 20px;
+}
+
+.tekst {
+  margin-bottom: 10px;
+}
+
+.section-asoschi {
+  background: linear-gradient(to right, blue, orange);
+  height: 500px;
+}
+
+.idea {
+  width: 40px;
+  height: 40px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  background-color: darkblue;
+  padding: 5px;
+}
+
+.idea:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px darkorange;
+  transition: all 0.3s;
+}
+
+/* ========== SECTION FOOTER ========== */
+
+.section-footer {
+  background-color: rgb(62, 62, 62);
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.bizbilan {
+  color: white;
+  position: relative;
+  top: -92px;
+  left: 190px;
+}
+
+.bal {
+  margin-top: -190px;
+  margin-left: 15px;
+}
+
+.ce {
+  margin-top: -190px;
+  margin-left: 7px;
+}
+
+.gray {
+  position: relative;
+  margin: 0;
+  margin-left: 30px;
+  top: -90px;
+}
+
+.buxgalter {
+  margin-top: -100px;
+  margin-left: -230px;
+  opacity: 0.5;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.sahifa-foot {
+  margin-top: -185px;
+  margin-left: 150px;
+  color: white;
+}
+
+.foot {
+  position: relative;
+  margin-left: -215px;
+  opacity: 0.5;
+  top: 20px;
+}
+
+.foot:hover {
+  border-color: darkblue;
+  background-color: darkblue;
+  color: #fff;
+  padding: 6px 10px;
+}
+
+.ijtimoiy {
+  margin-top: -185px;
+  margin-left: 250px;
+  color: white;
+}
+
+.insta {
+  width: 28px;
+}
+
+.insta:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+.instagram {
+  text-decoration: none;
+  color: white;
+  margin-left: -150px;
+}
+
+.in {
+  margin-left: 10px;
+  position: relative;
+  top: -8px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.in:hover {
+  border-color: orange;
+  border-radius: 12px;
+  background-color: orange;
+  color: #fff;
+  padding: 6px 10px;
+  flex-direction: column;
+}
+
+.teleg {
+  width: 28px;
+}
+
+.teleg:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+.telegram {
+  text-decoration: none;
+  color: white;
+  margin-top: 100px;
+  margin-left: -108px;
+}
+
+.te {
+  margin-left: 10px;
+  position: relative;
+  top: -8px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.te:hover {
+  border-color: orange;
+  border-radius: 12px;
+  background-color: orange;
+  color: #fff;
+  padding: 6px 10px;
+}
+
+.nima-uchun {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 30px;
+}
+
+.nima-uchun:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+}
+
+.economic-balance {
+  margin-left: 55px;
+  margin-top: -38px;
+}
+
+.contact {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 27px;
+  height: 155px;
+}
+
+.contact:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
+}
+
+.economic {
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  background-color: darkblue;
+}
+
+.asoschi-blan-boglanish {
+  color: white;
+  position: relative;
+  left: 10px;
+  top: -8px;
+}
+
+.a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.m {
+  border: 1px solid orange;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: -21px;
+  left: 170px;
+  background-color: orange;
+}
+
+.n {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.asoschi-blan {
+  position: relative;
+  top: -9px;
+  left: 7px;
+}
+
+.i {
+  width: 28px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bilan {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-left: 55px;
+  margin-top: -33px;
+}
+
+.boglanish {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid orange;
+  background-color: orange;
+  padding: 5px;
+}
+
+.boglanish:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+}
+
+.t {
+  width: 28px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* ========== RO'YXAT SECTION ========== */
+
+.royxat-section {
+  background: linear-gradient(to right, darkblue, orange);
+  height: 500px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 570px;
+  position: relative;
+  top: 100px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.ismfam {
+  margin-left: 570px;
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+.kirit {
+  position: relative;
+  top: 105px;
+  color: white;
+  margin-left: 570px;
+}
+
+.raqam {
+  position: relative;
+  top: 105px;
+  color: white;
+  margin-left: 570px;
+}
+
+.btttn {
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: orange;
+  font-weight: bold;
+  padding: 10px;
+  width: 200px;
+  position: relative;
+  top: 150px;
+  left: -200px;
+  cursor: pointer;
+}
+
+.makro-section {
+  background: linear-gradient(to right, blue, orange);
+  height: 500px;
+}
+
+.part {
+  position: relative;
+  top: 10px;
+}
+
+.kirish-qism {
+  position: relative;
+  top: 30px;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 0px 20px 0px 20px;
+}
+
+.kirish-qism:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.aloqa-section {
+  background: linear-gradient(to right, blue, orange);
+  height: 500px;
+}
+
+.t-aloqa {
+  border: 1px solid orange;
+  border-radius: 10px;
+  position: relative;
+  top: 70px;
+  left: 450px;
+  background-color: orange;
+  color: white;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 70px;
+  height: 250px;
+}
+
+.t-aloqa:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.telegr {
+  width: 28px;
+  position: relative;
+  top: -90px;
+  left: -50px;
+}
+
+.telegr:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.asosiy-kanal {
+  opacity: 0.7;
+  margin-top: -103px;
+  margin-left: -90px;
+}
+
+.teg-silka {
+  text-decoration: none;
+  color: white;
+  margin-left: -92px;
+  font-size: smaller;
+}
+
+.kuzatish1 {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  position: relative;
+  left: -135px;
+  top: 75px;
+}
+
+.arrow1 {
+  width: 10px;
+  position: relative;
+  left: 60px;
+  top: -18px;
+}
+
+.i-aloqa {
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  position: relative;
+  top: -180px;
+  left: 670px;
+  background-color: darkblue;
+  color: white;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 70px;
+  height: 250px;
+}
+
+.i-aloqa:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.instag {
+  width: 28px;
+  position: relative;
+  top: -90px;
+  left: -50px;
+}
+
+.instag:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.qiziqarli {
+  opacity: 0.5;
+  position: relative;
+  top: -50px;
+  left: -130px;
+}
+
+.ins-silka {
+  text-decoration: none;
+  color: white;
+  margin-left: -260px;
+  font-size: smaller;
+}
+
+.kuzatish2 {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  margin-left: -130px;
+  margin-top: 150px;
+}
+
+.arrow2 {
+  width: 10px;
+  position: relative;
+  left: 60px;
+  top: -19px;
+}
+
+.grafiklar {
+  background-color: #a8a8a8;
+  height: 600px;
+}
+
+.makroiqtisodiy {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.makroiqtisodiy:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s;
+}
+
+.kok {
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+
+.kok:hover {
+  box-shadow: 0 0 10px darkblue;
+}
+
+.infl {
+  position: relative;
+  left: 130px;
+  top: 50px;
+  padding-top: 15px;
+}
+
+.infl:hover {
+  box-shadow: 0 0 10px darkblue;
+}
+
+.inves {
+  position: relative;
+  top: 80px;
+  left: 77px;
+  padding-right: 25px;
+}
+
+.inves:hover {
+  box-shadow: 0 0 10px orange;
+}
+
+.sanoat {
+  position: relative;
+  top: 80px;
+  left: 125px;
+  padding-top: 18px;
+}
+
+.sanoat:hover {
+  box-shadow: 0 0 10px orange;
+}
+
+.yaim {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.yaim:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #e5e5e5;
+  transition: all 0.3s;
+}
+
+.pp {
+  position: relative;
+  top: 90px;
+  left: 100px;
+}
+
+.yillik {
+  position: relative;
+  top: 90px;
+  left: 120px;
+}
+
+.istemol {
+  position: relative;
+  top: 90px;
+  left: 140px;
+}
+
+.trln {
+  position: relative;
+  top: 90px;
+  left: 160px;
+}
+
+.ishlab {
+  position: relative;
+  top: 90px;
+  left: 180px;
+}
+
+.dinamika {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+/* .soliq-width {
+  width: 1200px;
+} */
+
+.kirish-soliq {
+  background: linear-gradient(to right, blue, orange);
+  height: 500px;
+}
+
+.kirish-q-soliq {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  position: relative;
+  top: 20px;
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+}
+
+.kirish-q-soliq:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
+}
+
+.asosiy-soliq {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 100px;
+  left: 240px;
+}
+
+.daromad-soliq {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 200px;
+  padding: 10px;
+}
+
+.daromad-soliq:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #e5e5e5;
+  transition: all 0.3s;
+}
+
+.mol-mulk {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 200px;
+  padding: 10px;
+}
+
+.mol-mulk:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #e5e5e5;
+  transition: all 0.3s;
+}
+
+.yer-soliq {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 200px;
+  padding: 10px;
+}
+
+.yer-soliq:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #e5e5e5;
+  transition: all 0.3s;
+}
+
+.ijtimoiy-soliq {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 200px;
+  padding: 10px;
+}
+
+.ijtimoiy-soliq:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #e5e5e5;
+  transition: all 0.3s;
+}
+
+.give,
+.home,
+.live,
+.people {
+  width: 40px;
+}
+
+.p {
+  margin-top: 5px;
+}
+
+.portallar {
+  background-color: #a8a8a8;
+}
+
+.onlayn-xizmatlar {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.soliq-link,
+.mygov-link {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+
+.mysoliq {
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 350px;
+}
+
+.mygov {
+  border: 1px solid orange;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  position: relative;
+  top: -94px;
+  left: 700px;
+}
+
+.mysoliq:hover,
+.mygov:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px white;
+  transition: all 0.3s;
+}
+
+.tolash,
+.qarzdor {
+  margin-top: 10px;
+}
+
+.soliq-logo,
+.mygov-logo {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.malumot {
+  background-color: #a8a8a8;
+  height: 400px;
+}
+
+.bizni {
+  color: orange;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.xizmat-turlar {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 300px;
+  position: relative;
+  left: 50px;
+  top: 60px;
+  padding: 10px;
+}
+
+.xizmat-turlar:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: 0.3s;
+}
+
+.xizmat {
+  position: relative;
+  left: 20px;
+  font-size: 22px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* =========== SCROLLBAR STYLE ========== */
+
+/* Skrollbarning umumiy kengligi */
+::-webkit-scrollbar {
+  width: 10px; /* Chiziqni ingichka qiladi */
+}
+
+/* Skrollbarning orqa foni (yo'lakchasi) */
+::-webkit-scrollbar-track {
+  background: #0f0f12;
+}
+
+/* Harakatlanuvchi qismi (yugurgichi) */
+::-webkit-scrollbar-thumb {
+  background: darkblue;
+  border-radius: 10px;
+  border: 2px solid #0f0f12; /* Atrofida joy qoldirib, chiroyli ko'rsatadi */
+}
+
+/* Sichqoncha ustiga kelganda olov rangga o'tishi */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9800;
+}
+
+/* ========== RESPONSIVE FOR PHONE ========== */
+@media (max-width: 480px) {
+  body {
+    width: 480px;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #000;
+    padding: 10px 20px;
+    height: 60px;
+    border-bottom: orange;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .rs {
+    margin-left: -700px;
+  }
+
+  .global {
+    margin-left: 20px;
+  }
+
+  .qurbon-hayit {
+    position: relative;
+    top: 70px;
+    left: -90px;
+    width: 20000px;
+  }
+}
