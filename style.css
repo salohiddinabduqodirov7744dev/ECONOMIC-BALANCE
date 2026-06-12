@@ -122,7 +122,6 @@ ul {
 /* ========== HERO SECTION ========== */
 .hero-section {
   padding: 60px 120px 40px;
-  /* background: linear-gradient(to right, blue, orange); */
   background-image: url(./images/tashqari.png);
   background-size: cover;
   height: 500px;
@@ -460,6 +459,15 @@ h4 {
 
 .ism {
   margin-top: 20px;
+  color: white;
+}
+
+.xil2 {
+  color: white;
+}
+
+.tashkilot {
+  color: white;
 }
 
 .tekst {
@@ -467,7 +475,8 @@ h4 {
 }
 
 .section-asoschi {
-  background: linear-gradient(to right, blue, orange);
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
   height: 500px;
 }
 
@@ -738,7 +747,8 @@ li {
 /* ========== RO'YXAT SECTION ========== */
 
 .royxat-section {
-  background: linear-gradient(to right, darkblue, orange);
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
   height: 500px;
 }
 
@@ -789,7 +799,8 @@ input {
 }
 
 .makro-section {
-  background: linear-gradient(to right, blue, orange);
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
   height: 500px;
 }
 
@@ -815,7 +826,8 @@ input {
 }
 
 .aloqa-section {
-  background: linear-gradient(to right, blue, orange);
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
   height: 500px;
 }
 
@@ -1062,7 +1074,8 @@ input {
 } */
 
 .kirish-soliq {
-  background: linear-gradient(to right, blue, orange);
+  background-image: url(./images/tashqari.png);
+  background-size: cover;
   height: 500px;
 }
 
@@ -1249,10 +1262,86 @@ input {
   transition: 0.3s;
 }
 
+.kokk {
+  color: darkblue;
+}
+
+.ash {
+  color: orange;
+}
+
 .xizmat {
   position: relative;
   left: 20px;
   font-size: 22px;
+  color: orange;
+}
+
+.manzil {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 260px;
+  position: relative;
+  top: -200px;
+  left: 480px;
+  padding: 10px;  
+}
+
+.manzil:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px orange;
+  transition: 0.3s;
+}
+
+.manzil > h3 {
+  color: darkblue;
+  position: relative;
+  left: 1px;
+  top: 15px;
+}
+
+.telfon-raqam {
+  color: orange;
+  position: relative;
+  left: 60px;
+  top: -10px;
+}
+
+.bizning-manzil {
+  color: orange;
+  position: relative;
+  left: 20px;
+}
+
+.contact2 {
+  width: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.ptichkali-box {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: darkblue;
+  padding: 10px;
+  width: 350px;
+  height: 257px;
+  position: relative;
+  top: -462px;
+  left: 950px;
+}
+
+.ptichkali-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: 0.3s;
+}
+
+.tick {
+  width: 28px;
 }
 
 footer {
@@ -1291,7 +1380,7 @@ footer {
   body {
     width: 480px;
   }
-  
+
   header {
     position: sticky;
     top: 0;
