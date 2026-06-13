@@ -408,7 +408,7 @@ h4 {
 }
 
 .yangiliklar:hover {
-  margin-top: -10px;
+  transform: translateY(-10px);
   box-shadow: 0 0 10px orange;
   transition: all 0.3s;
 }
@@ -1341,7 +1341,34 @@ input {
 }
 
 .tick {
-  width: 28px;
+  width: 20px;
+}
+
+.kopxizmat {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 380px;
+  padding: 15px;
+  color: darkblue;
+  margin: 30px 0px 30px 50px;
+}
+
+.kopxizmat:hover {
+  transform: translateY(-10px);
+  box-shadow:  0 0 10px orange;
+  transition: 0.3s;
+}
+
+.koph2 {
+  color: orange;
+  position: relative;
+  left: 30px;
+}
+
+.yozuvlar {
+  position: relative;
+  top: 10px;
 }
 
 footer {
