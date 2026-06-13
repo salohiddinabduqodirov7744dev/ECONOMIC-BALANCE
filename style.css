@@ -150,6 +150,14 @@ ul {
   left: -110px;
 }
 
+.global > h2 {
+  color: orange;
+}
+
+.global > .pick {
+  color: darkblue;
+}
+
 .global:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 10px darkblue;
@@ -266,6 +274,11 @@ ul {
 .box1,
 .box2 {
   border-left: 4px solid darkblue;
+  color: orange;
+}
+
+.box3, .box4 {
+  color: darkblue;
 }
 
 .box1:hover {
@@ -319,6 +332,7 @@ ul {
   background-color: #f9f9f9;
   padding: 10px;
   border-radius: 10px;
+  color: orange;
 }
 
 .asosiy:hover {
@@ -331,6 +345,18 @@ ul {
 .yangiliklar h2 {
   font-size: 20px;
   margin-bottom: 16px;
+}
+
+.yangiliklar > h2 {
+  color: orange;
+}
+
+.yangiliklar {
+  color: darkblue;
+}
+
+.kan, .kana {
+  color: darkblue;
 }
 
 .asosiy img {
@@ -440,6 +466,92 @@ h4 {
   font-weight: bold;
   top: 10px;
   width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.eksport {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -50px;
+  width: 300px;
+  position: relative;
+  left: 140px;
+}
+
+.qurilish {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -97px;
+  width: 300px;
+  position: relative;
+  left: 460px;
+}
+
+.maslahat {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -77px;
+  width: 300px;
+  position: relative;
+}
+
+.glavbux {
+   border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -107px;
+  width: 100px;
+  position: relative;
+  left: 330px;
+}
+
+.kelajak {
+   border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -137px;
+  width: 310px;
+  position: relative;
+  left: 450px;
+}
+
+.mhxs {
+   border: 1px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  top: -107px;
+  width: 763px;
+  position: relative;
+  left: 0px;
 }
 
 .text {
@@ -675,7 +787,7 @@ li {
 }
 
 .asoschi-blan-boglanish {
-  color: white;
+  color: orange;
   position: relative;
   left: 10px;
   top: -8px;
@@ -707,6 +819,7 @@ li {
   position: relative;
   top: -9px;
   left: 7px;
+  color: darkblue;
 }
 
 .i {
@@ -721,6 +834,7 @@ li {
   margin-left: 50px;
   margin-left: 55px;
   margin-top: -33px;
+  color: orange;
 }
 
 .boglanish {
@@ -767,20 +881,20 @@ input {
   margin-left: 570px;
   position: relative;
   top: 100px;
-  color: white;
+  color: orange;
 }
 
 .kirit {
   position: relative;
   top: 105px;
-  color: white;
+  color: orange;
   margin-left: 570px;
 }
 
 .raqam {
   position: relative;
   top: 105px;
-  color: white;
+  color: orange;
   margin-left: 570px;
 }
 
@@ -817,6 +931,7 @@ input {
   background-color: #f9f9f9;
   padding: 20px;
   margin: 0px 20px 0px 20px;
+  color: darkblue;
 }
 
 .kirish-qism:hover {
@@ -875,7 +990,7 @@ input {
 
 .teg-silka {
   text-decoration: none;
-  color: white;
+  color: darkblue;
   margin-left: -92px;
   font-size: smaller;
 }
@@ -941,7 +1056,7 @@ input {
 
 .ins-silka {
   text-decoration: none;
-  color: white;
+  color: orange;
   margin-left: -260px;
   font-size: smaller;
 }
@@ -1111,9 +1226,17 @@ input {
   padding: 10px;
 }
 
+.daromad-soliq > h3 {
+  color: orange;
+}
+
+.daromad-soliq > p {
+  color: darkblue;
+}
+
 .daromad-soliq:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 0 10px darkblue;
   transition: all 0.3s;
 }
 
@@ -1125,9 +1248,17 @@ input {
   padding: 10px;
 }
 
+.mol-mulk > h3 {
+  color: orange;
+}
+
+.mol-mulk > p {
+  color: darkblue;
+}
+
 .mol-mulk:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 0 10px darkblue;
   transition: all 0.3s;
 }
 
@@ -1139,9 +1270,17 @@ input {
   padding: 10px;
 }
 
+.yer-soliq > h3 {
+  color: orange;
+}
+
+.yer-soliq > p {
+  color: darkblue;
+}
+
 .yer-soliq:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 0 10px orange;
   transition: all 0.3s;
 }
 
@@ -1153,9 +1292,17 @@ input {
   padding: 10px;
 }
 
+.ijtimoiy-soliq > h3 {
+  color: orange;
+}
+
+.ijtimoiy-soliq > p {
+  color: darkblue;
+}
+
 .ijtimoiy-soliq:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px #e5e5e5;
+  box-shadow: 0 0 10px orange;
   transition: all 0.3s;
 }
 
@@ -1175,7 +1322,7 @@ input {
 }
 
 .onlayn-xizmatlar {
-  color: white;
+  color: orange;
   text-align: center;
   position: relative;
   top: 20px;
@@ -1191,13 +1338,29 @@ input {
   left: 10px;
 }
 
+.soliq-link {
+  color: orange;
+}
+
+.mygov-link {
+  color: darkblue;
+}
+
+.soliq-gap > b {
+  color: orange;
+}
+
+.soliq-gap {
+  color: darkblue;
+}
+
 .mysoliq {
   border: 1px solid darkblue;
   border-radius: 10px;
   width: 300px;
   padding: 10px;
   background-color: darkblue;
-  color: white;
+  color: orange;
   position: relative;
   top: 50px;
   left: 350px;
@@ -1209,16 +1372,21 @@ input {
   width: 300px;
   padding: 10px;
   background-color: orange;
-  color: white;
+  color: darkblue;
   position: relative;
   top: -94px;
   left: 700px;
 }
 
-.mysoliq:hover,
+.mysoliq:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px orange;
+  transition: all 0.3s;
+}
+
 .mygov:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px darkblue;
   transition: all 0.3s;
 }
 
@@ -1259,7 +1427,7 @@ input {
 .xizmat-turlar:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 10px darkblue;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .kokk {
@@ -1286,13 +1454,13 @@ input {
   position: relative;
   top: -200px;
   left: 480px;
-  padding: 10px;  
+  padding: 10px;
 }
 
 .manzil:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 10px orange;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .manzil > h3 {
@@ -1334,14 +1502,23 @@ input {
   left: 950px;
 }
 
+.pastga {
+  position: relative;
+  top: 20px;
+}
+
 .ptichkali-box:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 10px darkblue;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .tick {
   width: 20px;
+}
+
+.oddiy-section {
+  height: 720px;
 }
 
 .kopxizmat {
@@ -1356,8 +1533,8 @@ input {
 
 .kopxizmat:hover {
   transform: translateY(-10px);
-  box-shadow:  0 0 10px orange;
-  transition: 0.3s;
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
 }
 
 .koph2 {
@@ -1367,6 +1544,56 @@ input {
 }
 
 .yozuvlar {
+  position: relative;
+  top: 10px;
+}
+
+.nashiuslugi {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 400px;
+  height: 690px;
+  padding: 15px;
+  color: darkblue;
+  margin: 0px 0px 30px 489px;
+  position: relative;
+  top: -719px;
+  font-size: 13px;
+}
+
+.nashiuslugi:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px darkblue;
+  transition: all 0.3s;
+}
+
+.tush {
+  position: relative;
+  top: 11px;
+  font-weight: bold;
+}
+
+.ourservices {
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 380px;
+  height: 690px;
+  padding: 15px;
+  color: darkblue;
+  margin: 0px 0px 30px 930px;
+  position: relative;
+  top: -1440px;
+}
+
+.ourservices:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px orange;
+  transition: all 0.3s;
+}
+
+.down {
   position: relative;
   top: 10px;
 }
