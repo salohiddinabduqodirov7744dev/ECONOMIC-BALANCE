@@ -964,7 +964,7 @@ input {
 
 .t-aloqa:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px orange;
+  box-shadow: 0 0 10px darkblue;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -1029,7 +1029,7 @@ input {
 
 .i-aloqa:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 10px darkblue;
+  box-shadow: 0 0 10px orange ;
   transition: all 0.3s;
   cursor: pointer;
 }
