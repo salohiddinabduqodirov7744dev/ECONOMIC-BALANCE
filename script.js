@@ -35,7 +35,6 @@
 	}
 	// ]]>
 
-
 // 1-masala
 
 let username = "Ali";
